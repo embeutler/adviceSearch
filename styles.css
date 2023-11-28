@@ -1,0 +1,70 @@
+
+@import url("https://fonts.googleapis.com/css?family=Nixie One");
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+body {
+    background: linear-gradient(to top, #9fff9f, rgb(243, 243, 139), rgba(147, 147, 255, 0.692),rgb(91, 233, 233), rgb(255, 145, 163), #e9bafd);
+    font-family: 'Bagel Fat One';
+    color: rgb(5, 199, 38);
+    text-align: center;
+    }
+
+    .glow {
+        font-size: 80px;
+        font-family: Oi;
+        color: #0c0e0a;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #bbff00, 0 0 20px #2efc13, 0 0 30px #0df17f, 0 0 40px #08fddd, 0 0 50px #3967fd, 0 0 60px #752bff, 0 0 70px #c31af7;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+      }
+
+    .container {
+    max-width: 900px;
+    color: #000;
+    margin: 50px auto;
+    background-color: #b7dfff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(223, 7, 243, 0.76);
+}
+
+#app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#adviceContainer {
+    margin-top: 20px;
+}
+
+#resetButton {
+    margin-top: 20px;
+}
+footer {
+    position: fixed;
+    font-family: 'Nixie One', sans-serif;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    color: #000;
+}
